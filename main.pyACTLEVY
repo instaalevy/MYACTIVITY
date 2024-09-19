@@ -1,0 +1,86 @@
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+
+
+
+#input muna ng pinili  system
+print("***************************************************")
+print("*                 ACT1 SCHEDULE                   *")
+print("***************************************************")
+#now input my variable a-f using choice
+choice = input("Please eter your section (A-F):")
+#using else if condition 
+if choice == 'A':
+    print("Monday")
+    print("\n (English)8:00AM-9:30AM    (PE)9:30AM-10:30AM    (ACT 111)10:30AM-12:00NN ")
+    print("\nWednesday")
+    print("\n (FUND.OF PROGRAMING)7:30AM-10:00AM    (NSTP)10:00AM-11:00AM")
+    print("\nThursday")
+    print("\n (MMW)8:00AM-10:00AM   (FUND.OF PROBLEM SOLVING)10:00AM-12:00NN ")
+elif choice == 'B':
+    print("TUESDAY")
+    print("\n (MMW)8:00AM-10:00AM   (ACT111)10:00AM-11:30AM   (PE)11:30AM-12:30PM")
+    print("\nWednesday")
+    print("\n (English)8:30AM-10:00AM   (FUND.OF PROGRAMING)10:00AM-12:30PM ")
+    print("\nThursday")
+    print("\n (FUND.OF PROBLEM SOLVING)8:00AM-10:00AM   (NSTP)10:00AM-11:30AM")
+    
+elif choice == 'C':
+	print("\nMONDAY")
+	print("\n (NSTP)10:00AM-11:30AM   (ENGLISH)11:30AM-1:00PM   (PE)1:00PM-2:00PM ")
+	print("\nTUESDAY")
+	print("\n (ACT11)12:00NN-1:30PM   (FUND. OF PROGRAMMING)1:30PM-4:00PM")
+	print("\nFRIDAY")
+	print("\n (FUND.OF PROBLEM SOLVING)10:00AM-12:00NN   (MMW)12:00NN-2:00PM  ")
+elif choice == 'D':
+	print("\nMONDAY")
+	print("\n (NSTP)2:00PM-3:30PM   (ENGLISH)3:30PM-5:00PM   (PE)5:00PM-6:00PM")
+	print("\n WEDNESDAY")
+	print("\n (FUND.OF PROGRAMMIN)1:00PM-3:30PM   (ACT111)3:30PM-5:00PM")
+	print("\n FRIDAY")
+	print("\n (FUND.OF PROBLEM SOLVING)12:30PM-2:30PM   (MMW)2:30PM-4:30PM" )
+elif choice == 'E':
+	print("\nTUESDAY")
+	print("\n (PE)2:00PM-3:00PM   (ENGLISH)3:00PM-4:30PM   (NSTP)4:30PM-6:00PM")
+	print("\nWEDNESDAY")
+	print("\n (MMW)2:30PM-4:30PM   (FUND.OF PROBLEM SOLVING)4:30PM-6:00PM")
+	print("\n FRIDAY")
+	print("\n (FUND.OF PROGRAMMING)7:30AM-10:00AM   (ACT111)10:00AM-11:30AM")
+elif choice == 'F':
+	print("\nTUESDAY")
+	print("\n (MMW)2:30PM-4:30PM   (FUND.OF PROBLEM SOLVING)4:30PM-6:30PM")
+	print("\nTHURSDAY")
+	print("\n (NSTP)2:00PM-3:30PM   (ENGLISH)3:30PM-5:00PM   (PE)5:00PM-6:00PM")
+	print("\nFRIDAY")
+	print("\n (ACT111)2:30PM-4:00PM   (FUND.OF PROGRAMMING)4:00PM-6:30PM ")
+	#lastly else if u did not enter a-f this block will apear
+else:
+	print("PLEASE USE (A-F) UPPERCASE ONLY")
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
