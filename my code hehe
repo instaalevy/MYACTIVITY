@@ -1,1 +1,53 @@
-wala pa mamaya pa puking ina kase
+print('***********************************')
+print('** •1 =Introduction of python**')
+print('** •2 =Basic Syntax               **')
+print('** •3 =Condition                    **')
+print('** •4 =Logical Operators       **')
+print('** •5=Loops                           **')
+print('***********************************')
+
+input("please select 1-5 only :))")
+
+ if choice == '1':
+	print("Python is a versatile, beginner-friendly programming language known for its simple syntax and wide ")
+	print("applications. It is used in web development, data science, machine learning, automation, and more. ")
+	print("Python is open-source, cross-platform, and supported by many libraries and frameworks, making it ")
+	print("popular for both beginners and professionals")
+	print("in short mas madali itong gamitin compare sa ibang languages :)")
+elif choice == '2':
+		print("we have different kind's of syntax for example (printing output):")
+		print("print ("Hello world")")
+		print("(Variables) :")
+		print("name = Levy")
+		print("age = 69")
+		print("(identation)")
+		print("if age > 18")
+		print(" print(adult)")
+		print("(Comment)")
+		print("#age =69   this line will be invisible")
+elif choice =='3':
+		print("Conditionals are a fundamental programming element that allows a computer to make decisions depending on specific criteria.")
+		print("example: Determine whether the grade is passed or failed")
+		print("RELATIONAL OPERATORS")
+		print(" < Less than")
+		print(" > Greater than")
+		print(" <= Less than or equal to")
+		print(" >= greater than or equal to")
+		print(" == equal to")
+		print(" !=  not equal to")
+elif choice =='4':
+		print("A logical operator is a symbol or word used to connect two or more expression")
+		print("Logical operator (AND)")
+		print("Logical operator (OR)")
+		print(" &&  AND")
+		print(" ||   OR")
+		print(" !   NOT")
+ elif choice =='5':
+	 	print("Loops used to iterate over sequences (like list,strings, or ranges)")
+	 	print(" for example list:")
+	 	print(" fruits =["apple","banaana","guava"]  ")
+	 	print("for fruits in fruits :")
+	 	print("print(fruit)")
+	else:
+	 		print("1-5 only thx")
+ 	
