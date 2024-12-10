@@ -1,0 +1,59 @@
+print('***********************************')
+print('** •1 = Introduction of Python  **')
+print('** •2 = Basic Syntax            **')
+print('** •3 = Condition               **')
+print('** •4 = Logical Operators       **')
+print('** •5 = Loops                   **')
+print('***********************************')
+
+# Get user input
+choice = input("Please select 1-5 only: ")
+
+# Check the user's choice and display the corresponding content
+if choice == '1':
+    print("Python is a versatile, beginner-friendly programming language known for its simple syntax and wide applications.")
+    print("It is used in web development, data science, machine learning, automation, and more.")
+    print("Python is open-source, cross-platform, and supported by many libraries and frameworks, making it popular for both beginners and professionals.")
+    print("In short, mas madali itong gamitin compared sa ibang languages :)")
+
+elif choice == '2':
+    print("We have different kinds of syntax. For example:")
+    print("(Printing output):")
+    print('print("Hello world")')
+    print("(Variables):")
+    print("name = 'Levy'")
+    print("age = 69")
+    print("(Indentation):")
+    print("if age > 18:")
+    print("    print('Adult')")
+    print("(Comment):")
+    print("# age = 69  # This line will be invisible")
+
+elif choice == '3':
+    print("Conditionals are a fundamental programming element that allows a computer to make decisions based on specific criteria.")
+    print("Example: Determine whether the grade is passed or failed.")
+    print("RELATIONAL OPERATORS:")
+    print(" <   Less than")
+    print(" >   Greater than")
+    print(" <=  Less than or equal to")
+    print(" >=  Greater than or equal to")
+    print(" ==  Equal to")
+    print(" !=  Not equal to")
+
+elif choice == '4':
+    print("Logical operators are symbols or words used to connect two or more expressions.")
+    print("Logical Operator (AND): Both conditions must be true.")
+    print("Logical Operator (OR): At least one condition must be true.")
+    print("Logical Operator (NOT): Reverses the condition.")
+    print("Examples:")
+    print("&& (AND), || (OR), ! (NOT)")
+
+elif choice == '5':
+    print("Loops are used to iterate over sequences (like lists, strings, or ranges).")
+    print("For example, a list:")
+    print("fruits = ['apple', 'banana', 'guava']")
+    print("for fruit in fruits:")
+    print("    print(fruit)")
+
+else:
+    print("Please select a number between 1 and 5 only. Thank you!")
